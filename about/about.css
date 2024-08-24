@@ -57,6 +57,10 @@
     margin: 0 auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     margin-top: 50px;
     display: flex;
@@ -97,8 +101,8 @@
 }
 
 .hero-img {
-    width: 440px;
-    height: 400px;
+    width: 420px;
+    height: 390px;
 }
 
 .hero-content {
@@ -312,6 +316,7 @@
 
 /*=====================SECTION3================*/
 .section3 {
+    width: 950px;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -351,7 +356,7 @@
 /*=====================FOOOTEER=====================*/
 
 .footer {
-    width: 100%;
+    width: 950px;
     height: 80px;
     background: var(--ColorDarkBlue);
     display: flex;
@@ -406,12 +411,7 @@
         height: 450px;
     }
 
-    .hero-content {
-        width: 400px;
-        height: 245px;
-        margin-top: 8%;
-        gap: 20%;
-    }
+
 
     .main {
         margin-top: 15%;
@@ -429,6 +429,11 @@
         margin-top: 15%;
     }
 
+    .section3 {
+        width: 850px;
+        gap: 10%;
+    }
+
     .section3-hr {
         width: 503px;
     }
@@ -443,7 +448,7 @@
     }
 
     .footer {
-        width: 800px;
+        width: 900px;
         gap: 35%;
         height: 80px;
     }
@@ -454,10 +459,14 @@
         width: 90%;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .nav-list {
         position: fixed;
         top: 5rem;
-        left: 40%;
+        left: 18%;
         width: 18rem;
         height: fit-content;
         flex-direction: column;
@@ -506,13 +515,13 @@
     }
 
     .fa-bars {
-        margin-right: 25%;
+        margin-right: 0%;
         margin-top: 2%;
         display: inline-block;
     }
 
     .fa-xmark {
-        margin-right: 25%;
+        margin-right: 0%;
         margin-top: 2%;
         display: none;
     }
@@ -532,9 +541,7 @@
     }
 
     .hero-content {
-        height: 160px;
-        top: 100%;
-
+        margin-top: 10%;
     }
 
     .hero-title {
@@ -559,14 +566,13 @@
 
     .main-img {
         position: absolute;
-        top: 35%;
         width: 400px;
         height: 300px;
     }
 
     .main-content {
-        height: 160px;
-        margin-top: 130%;
+        /* position: absolute; */
+        margin-top: 100%;
 
     }
 
@@ -585,10 +591,9 @@
     }
 
     .section {
-        position: absolute;
-        top: 130%;
         display: flex;
         flex-direction: column;
+        margin-top: 15%;
     }
 
     .section-img {
@@ -597,10 +602,7 @@
     }
 
     .section-content {
-        position: absolute;
-        height: 160px;
-        top: 100%;
-
+        margin-top: 20%;
     }
 
     .section-title {
@@ -624,16 +626,13 @@
     }
 
     .section2-img {
-        margin-top: 200%;
         width: 400px;
         height: 300px;
     }
 
     .section2-content {
         position: absolute;
-        top: 55%;
-        height: 160px;
-        margin-top: 130%;
+        margin-top: 100%;
 
     }
 
@@ -652,7 +651,9 @@
     }
 
     .section3 {
+        position: relative;
         flex-direction: column;
+        margin-top: 140%;
     }
 
     .section3-hr {
@@ -661,16 +662,14 @@
 
     .section3-text {
         position: absolute;
-        top: 260%;
         width: 350px;
         font-size: 50px;
     }
 
     .section3-btn {
         position: absolute;
-        top: 275%;
         width: 200px;
-        margin-top: 10%;
+        margin-top: 28%;
     }
 
 
@@ -679,7 +678,7 @@
         height: 410px;
         flex-direction: column;
         gap: 15%;
-        margin-top: 200%;
+        margin-top: 100%;
 
     }
 

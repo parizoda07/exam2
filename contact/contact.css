@@ -52,16 +52,20 @@
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 90%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .navbar {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    gap: 70%;
+    gap: 55%;
     /* justify-content: space-between; */
 
 }
@@ -96,7 +100,7 @@
 .hero {
     margin-top: 5%;
     display: flex;
-    margin-left: 3%;
+    /* margin-left: 3%; */
 }
 
 .hero-title {
@@ -105,7 +109,7 @@
 }
 
 .hero-text {
-    width: 635px;
+    width: 590px;
     line-height: 26px;
     font-size: 16px;
 }
@@ -119,7 +123,6 @@
 /*=====================MAIN==================*/
 .main {
     display: flex;
-    gap: 20%;
 }
 
 .main-title {
@@ -129,6 +132,7 @@
 }
 
 .label {
+    /* margin-left: 6%; */
     margin-top: 5%;
     flex-direction: column;
     display: flex;
@@ -149,10 +153,10 @@ input {
     background-color: var(--ColorDarkBlue);
 }
 
-/*=====================FOOTEER=====================*/
+/*=====================FOOTER=====================*/
 
 .footer {
-    width: 100%;
+    width: 1000px;
     height: 80px;
     background: var(--ColorDarkBlue);
     display: flex;
@@ -191,7 +195,7 @@ input {
 }
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     .container {
         width: 85%;
     }
@@ -209,11 +213,16 @@ input {
         display: flex;
         flex-direction: column;
     }
+
+    .main-text {
+        line-height: 26px;
+    }
+
     .footer {
-        width: 670px;
+        width: 650px;
         gap: 35%;
         height: 80px;
-    } 
+    }
 }
 
 
@@ -275,13 +284,13 @@ input {
     }
 
     .fa-bars {
-        margin-right: 0%;
+        margin-left: 18%;
         margin-top: 2%;
         display: inline-block;
     }
 
     .fa-xmark {
-        margin-right: 15%;
+        margin-left: 18%;
         margin-top: 2%;
         display: none;
     }
@@ -293,12 +302,12 @@ input {
     .hero-text {
         width: 400px;
     }
-    
+
     input {
         padding: 2%;
         width: 400px;
     }
-    
+
     .footer {
         width: 410px;
         height: 410px;
