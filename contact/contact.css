@@ -132,7 +132,7 @@ body {
 }
 
 .label {
-    /* margin-left: 6%; */
+    /* margin-left: 7%; */
     margin-top: 5%;
     flex-direction: column;
     display: flex;
@@ -229,6 +229,7 @@ input {
 @media only screen and (max-width:545px) {
     .container {
         width: 90%;
+        margin: 0;
     }
 
     .nav-list {
